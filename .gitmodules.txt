@@ -1,3 +1,0 @@
-[submodule "portfolio/Portfolio"]
-    path = portfolio/Portfolio
-    url = https://github.com/maxirosso/Portfolio.git

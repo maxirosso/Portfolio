@@ -2,7 +2,7 @@ import React from 'react';
 import './skills.css';
 import UIdesign from '../../assets/uiux.png';
 import WebDesign from '../../assets/websitedgn.png';
-import AppDesign from '../../assets/appdgn.webp';
+import Database from '../../assets/database.png';
 
 const skills = () => {
   return (
@@ -25,10 +25,10 @@ const skills = () => {
                 </div>
             </div>
             <div className="skillBar">
-                <img src={AppDesign} alt="DiseñoApp" className="skillBarImg" />
+                <img src={Database} alt="DiseñoApp" className="skillBarImg" />
                 <div className="skillBarText">
-                    <h2>Diseño de Aplicaciones</h2>
-                    <p>DemoTest</p>
+                    <h2>Conocimiento de Base de Datos</h2>
+                    <p>Conocimiento de Base de datos como MongoDB, Cassandra, Redis y Neo4j</p>
                 </div>
             </div>
         </div>
