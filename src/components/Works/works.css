@@ -1,0 +1,56 @@
+#works {
+    padding: 2rem;
+    background-color: rgb(30, 30, 30);
+  }
+  
+  .worksTitle {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  
+  .workItem {
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  
+  .workLink {
+    display: inline-flex;
+    align-items: center;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: #0073b1;
+    margin: 0.5rem;
+  }
+  
+  .workIcon {
+    margin-right: 0.5rem;
+  }
+  
+  .projectLinks {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  /* Media Queries */
+  @media (max-width: 768px) {
+    .workLink {
+      font-size: 1rem;
+    }
+    
+    .projectLinks {
+      flex-direction: column;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .worksTitle {
+      font-size: 1.5rem;
+    }
+    
+    .workLink {
+      font-size: 0.9rem;
+    }
+  }
+  
