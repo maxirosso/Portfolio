@@ -80,7 +80,7 @@ border-bottom: 3px solid yellow;
    .mobMenu{
        display: flex;
    }
-   .desktopMenu{
+   .desktopmenu{
     display: none;
    }
    .desktopMenuBtn{

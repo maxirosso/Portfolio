@@ -11,7 +11,9 @@ const Intro = () => {
             <span className='hello'>Hola,</span>
             <span className="introText">Soy <span className="introName">Maximo</span> <br />Diseñador de Paginas web</span>
             <p className='introPara'>Soy un estudiante de Ingenieria Informatica de 4to año de la UADE </p>
-            <Link><button className="btn"><img src={btnImg} alt="Contratame" className='btnImg' />Contratame</button></Link>
+            <Link ><button className="btn" onClick={() => {
+          document.getElementById('contact').scrollIntoView({ behavior: 'smooth' });
+        }}><img src={btnImg} alt="Contratame" className='btnImg' />Contratame</button></Link>
         </div>
         <img src={bg} alt="profile" className='bg'/>
    </section>
